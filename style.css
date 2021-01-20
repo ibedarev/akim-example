@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato;
+}
+
+.container {
+    max-width: 1142px;
+    margin: auto;
+}
+
+.header-border {
+    border-bottom: solid 1px #ececec;
+}
+
+.header-medium {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 22px 0px;
+}
+
+.header-medium>span {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.header-medium>a {
+    margin-right: 12px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    border: solid 1px #e6e6e6;
+    font-size: 14px;
+    margin-left: 37px;
+    height: 38px;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.browse {
+    background: linear-gradient(to top, #f9f9f9, #f5f5f5);
+    padding: 0px 8px 0px 14px;
+    border-right: solid 1px #e6e6e6;
+}
+
+.arrow {
+    margin-left: 8px;
+}
+
+.sch-item {
+    padding: 0px 15px;
+    width: 280px;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    padding: 0px 11px;
+    border-left: solid 1px #e6e6e6;
+}
+
+.acc {
+    padding: 13px 12px 11px 19px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    margin-left: 26px;
+}
+
+.profile {
+    align-items: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile>a {
+    display: flex;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 19px;
+    margin-bottom: 22px;
+}
+
+.menu-list:not(:last-of-type) {
+    margin-right: 45px;
+}
+
+.banner {
+    background: url('img/man.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 224px 0px 297px;
+}
+
+.brand {
+    border-left: solid 12px #f16d7f;
+    padding-left: 12px;
+}
+
+.brand-style-1 {
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+}
+
+.brand-style-2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.red {
+    color: #f16d7f;
+}
